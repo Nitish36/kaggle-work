@@ -1,0 +1,146 @@
+MACHINE LEARNING
+	 TYPE OF AI
+	It predict the o/p based on past experiences 
+and while predicting it automatically learn the data from train 
+data
+	Ex.Email SPam,Medical Diagnosis,
+Salary Prediction,Image recognition,Product Recommendation
+
+	Train Data-Well-known data-Both i/p and o/p values
+	Test Data-Only I/p values
+TYPES OF ML
+	1.Supervised Learning-Labelled Data
+		It consists Both i/p and o/p
+	Ex.Supervisor,Teacher predict the result for one class,
+Product Recommendation,Medical Disease Prediction
+		Types of Supervised Learning
+			1.Classification
+			  Binary or Discrete or
+categorical values.Ex-Disease Prediction,Placement Prediction
+			2.Regression-Continous values
+Ex.Salary Prediction,Crop Yield Prediction
+	2.Unsupervised Learning-Unlabelled Data
+		-Only I/p data
+		Types of unsupervised Learning
+		1.Clustering
+		2.Association
+Ex.hacking,Fake news recommendation
+	3.Semi-Supervised Learning-Both labelled
+and unlabelled data
+	4.Reinforcement Learning-Trail and Error Method
+	Ex.Gaming
+Supervised Learning Algorithms
+	1.Linear Regression
+	2.Logistic Regression
+	3.Naive bayes
+	4.Decision Tree
+	5.Random Forest
+	6.Support Vector machine
+	7.K-Nearest Neighbor
+Steps for ML:
+	1.Collect the data
+	2.Analyze the data
+	3.Data Preprocessing
+	4.Data Visualization
+	5.Split the data
+	6.Analyze the algorithm
+	7.Predict the o/p
+
+1.Linear Regression
+	-Regression-continuous values
+	-Predict Dependent data based on one or more
+independent variable
+	-Best fit line data
+	-Linear Straight line equation
+		y=mx+c
+y=Dependent
+m-slope or coef
+x-independent
+c-intercept
+
+		Simple LR
+		Multiple LR
+Ex.Salary Data
+
+Exp 	Salary=Actual Data
+1	10000
+2	20000
+3	30000
+4	40000
+m=3.45
+c=5.676
+
+Predicted Values
+
+y=mx+c
+y=(3.45*1)+5.67=25000
+
+Mean Squared Error-Differences b/w actual and Predicted values
+
+
+Cost Function-used to know how the weight or regression coefficient
+of data linear models
+
+Gradient Descent-To reduce the cost function error values
+
+
+R2 Score =best fit line or not ( 0 to 1)
+Logistic Regression
+	-Classification- Binary or Discrete or categorical val
+	-Probability of event is happening or not
+	y=mx+c
+
+	p/1-p=mx+c
+
+	Log on both sides
+	Sigmoid Function=1/1+e^-(mx+c)
+	Threshold value=0.5
+	Prob>0.5=Yes or Positive
+	Prob<0.5=No
+
+	S-Shaped Curve
+	Accuracy Score-predicted to the actual o/p
+True values=Actual and Predicted o/p data are same
+False values=Actual and Predicted o/p data are different
+TP=Actual data (Affected) and Predicted data(affected)
+FP=Actual data (Affected) and Predicted data(Not affected)
+TN=Actual data (Not Affected) and Predicted data(Not affected)
+FN=Actual data (Not Affected) and Predicted data(affected)
+
+Confusion Matrix=n*n dimensional matrix
+	=Always maximum value in diagonal part
+O/p:[2*2]
+[TP FP
+  FN TN]
+
+Precision=True Values/TP + TN
+Trues Values/Actual Data
+Recall=True values/predicted
+
+Linear			Logistic
+
+1.Regression		1.Classification
+2.Predict dependent data                2.Probability of event is
+based on one or more  		happening or not
+independent var
+3.y=mx+c			3.Sigmoid Fun=1/1+e^-(mx+c)
+4.Fit-line			4.S-shaped curve
+5.MSE,r2_score		5.Accuracy_Score,Confusion_matrix
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,69 @@
+1) read csv
+   salary = pd.read_csv("Salary.csv")
+   print(salary)
+
+2) Try deleting a few values in salary csv file and repeat the same steps again
+   print(pd.read_csv("Salary.csv"))
+
+   To show that they are null values type in the following code
+   df = pd.DataFrame(salary)
+   df.isnull()
+
+3) Now to fill in those values type the following code 
+   df["Salary"].fillna(24,inplace=True)
+   df
+
+4) df["Pregnancies"].unique()
+
+5) df1 = df[df["BloodPressure"]==72]
+   print(df1)
+
+6) df.describe()
+
+7) Data Vizulation part
+   
+   import pandas as pd
+   import matplotlib.pyplot as plt
+   import numpy as np
+   df = pd.read_csv("diabetes.csv")
+   df[0:3]
+
+   plt.xlabel("glucose")
+   plt.ylabel("insulin level")
+   plt.plot(df["Glucose"][50:65],df["Insulin"][50:65],"g*--",ms=10,mfc="red",mec="blue")
+   plt.legend()
+   plt.show()
+
+   For bar chart
+   plt.bar(df["Age"][0:25],df["Outcome"][0:25])
+   plt.show()
+
+   For histogram
+   plt.hist(df["Age"])
+   plt.show()
+
+   Pie chart
+   a = df.loc[df['Age']==50].count()[0]
+   b = df.loc[df['Age']<50].count()[0]
+   c = df.loc[df['Age']>50].count()[0]
+
+   d=[a,b,c]
+
+   l = ['Age=50','Age<50','Age>50']
+   c = ['#5F7464','#DAB88B','#FAD9E6']
+
+   plt.pie(d,labels=l,autopct='%.3f',colors=c)
+   plt.show()
+
+   Scatter plot
+   plt.xlabel("glucose")
+   plt.ylabel("insulin level")
+   plt.scatter(df["Glucose"][50:65],df["Insulin"][50:65])
+   plt.legend()
+   plt.show()
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+Naive Bayes
+	Classification-Binary or Discrete or categorical val
+	Bayes Theorem
+		P(A|B)=P(B|A)P(A)/P(B)
+P(A|B)=Prior Probability
+P(A)=Event
+P(B)=Hypothesis
+P(B|A)=Posterior Probability
+	Probability of hypothesis before getting the evidence
+to the probability of hypothesis after getting the evidence
+
+Weather	Climate	Play
+Sunny	Hot	Y
+Rainy	Cold	N
+Overcast	Mild	Y
+
+Shape=(100,3)
+
+Likelihood data table
+
+Weather	Y	N
+
+Sunny          10	12
+Overcast      20	23
+Rainy	   8	10	
+Tot             38                 45
+Climate	Y	N
+
+Hot        	 10	12
+Cold    	20	23
+Mild	   8	10
+
+
+Frequency Table
+
+Weather	Y	N
+
+Sunny          10/38	12/45
+Overcast      20/38	23/45
+Rainy	   8/38	10/45	
+Tot             38                 45
+
+
+P(R|N)=P(N|R)P(R)/P(N)
+
+P(N|R)=10/45
+P(R)=8/38+10/45
+P(N)=1/45
+
+
+Types of Naive Bayes
+1.Gaussian NB
+2.Bernoulis Distribution
+3.Multinomial NB
+
+
+
+
+

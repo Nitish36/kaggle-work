@@ -1,0 +1,13 @@
+RANDOM FOREST
+	Classification-RandomForestClassifier
+	Regression-RandomForestRegressor
+
+Collection of Decision Tree
+	Ensemble technique
+		Bagging	
+		Boosting
+BAGGING-collect the data samples randomly from training
+data set samples or row sampling
+	Also know Bootstraping Samples
+	Based on majority voting data points-Aggregations
+

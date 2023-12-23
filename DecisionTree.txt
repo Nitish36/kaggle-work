@@ -1,0 +1,29 @@
+Decision Tree
+	Classification_DecisionTreeClassifier
+	Regression=DecisionTreeRegressor
+	Flow chart data process prediction
+Tree Structure Pattern
+	1.Root Node
+	2.Decision Node
+	3.Sub-tree
+	4.Terminal Leaf Node
+
+
+Weather	Climate	Humidity	Wind       Play
+Sunny 	Hot	Normal	Strong     yes
+ overcast   Cold 	High	Weak       No
+Rainy        Mild
+
+
+1.Root Node=split the data
+2.Sub node or decision =split the data
+3.Terminal or leaf=can't split the data
+
+
+Entropy
+	Measure of randomness of data or disorder of the data p
+point 
+	Measure the impurities of the data
+
+Information Gain-To gain the information based on splitting
+data points
